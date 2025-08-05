@@ -23,6 +23,11 @@ dist-ssr
 
 # env
 .env
+.dev.vars
 
 # vite build stats
 stats.html
+
+# Cloudflare
+.wrangler/
+.cloudflare/

@@ -1,0 +1,15 @@
+name = "admin"
+main = "src/worker.js"
+compatibility_date = "2025-08-05"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "pnpm build"
+
+[env.production]
+name = "admin-prod"
+
+[env.staging]
+name = "admin-staging"
